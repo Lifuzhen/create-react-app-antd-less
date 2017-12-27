@@ -1,7 +1,10 @@
 # create-react-app+antd+less配置
 1、create-react-app (文件夹名称)
+
 2、npm run eject
+
 3、npm install less-loader less --save-dev
+
 修改config文件夹下的webpack.config.dev.js和webpack.config.prod.js文件(都需要修改) 
 查找 ：exclude 
 原本的 exclude: [/\.js$/, /\.html$/, /\.json$/], 
@@ -20,8 +23,11 @@
       loader: require.resolve('less-loader') // compiles Less to CSS
     }
   ],
+  
   4、npm install antd --save-dev
+  
   5、npm install –save-dev babel-plugin-import
+  
   修改 package.json
   "babel": {
       "presets": [
@@ -37,4 +43,5 @@
         ]
       ]
     },
+    
     6、npm start
