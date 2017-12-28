@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ClickCounter from './ClickCounter';
 import registerServiceWorker from './registerServiceWorker';
+import Home from "./Home";
 
-ReactDOM.render(<ClickCounter id="007"/>, document.getElementById('root'));
+ReactDOM.render(<Home/>, document.getElementById('root'));
 registerServiceWorker();
 
 
