@@ -2,8 +2,11 @@
  * Created by fuzhen on 2017/12/28.
  */
 import React from "react";
-import {Route} from "react-router-dom";
-import ClickCounter from "./ClickCounter";
+import {Route, HashRouter} from "react-router-dom";
+import Index from "./page/Index";
+import Login from "./page/Login";
+import Register from "./page/Register";
+import Logout from "./page/Logout";
 
 
 class Home extends React.Component{
@@ -13,11 +16,15 @@ class Home extends React.Component{
 
         }
     }
-
-
     render(){
-        return <div><ClickCounter id="007"/></div>
+        return <HashRouter>
+            <div>
+                <Route path="/" exact component={Index} />
+                <Route path="/login" component={Login} />
+                <Route path="/register" component={Register} />
+                <Route path="/logout" component={Logout} />
+            </div>
+        </HashRouter>
     }
-
 }
 export default Home;
