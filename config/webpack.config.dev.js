@@ -151,6 +151,10 @@ module.exports = {
               cacheDirectory: true,
             },
           },
+
+          { test: /\.(svg|woff|eot)\??.*$/,
+              loader: "url-loader?limit=65000&name=font_[name].[ext]",
+          },
           // "postcss" loader applies autoprefixer to our CSS.
           // "css" loader resolves paths in CSS and adds assets as dependencies.
           // "style" loader turns CSS into JS modules that inject <style> tags.

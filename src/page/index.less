@@ -29,15 +29,70 @@ body{
   }
 }
 .Login{
+  .ant-form-item{
+    .ant-form-item-control-wrapper{
+      .ant-form-item-control{
+        span.ant-input-affix-wrapper{
+          span.ant-input-prefix{
+            i{
+              color: rgba(0,0,0,.25);
+            }
+          }
+        }
+      }
+    }
+  }
   .login-form {
     margin: 50px auto;
-    max-width: 300px;
+    max-width: 500px;
     .login-form-forgot {
       float: right;
     }
     .login-form-button {
       width: 100%;
     }
+  }
+}
+.login-resetPwd-modal{
+  font-size: 14px;
+  position: relative;
+  i{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .ant-modal-header{
+    .ant-modal-title{
+      text-align: center;
+      font-size: 15px;
+    }
+  }
+  .login-forgetPwd-modal-phone{
+    text-align: center;
+    button{
+      width: 300px;
+      margin-top: 20px;
+    }
+  }
+  .login-forgetPwd-modal-form{
+    text-align: center;
+    button{
+      width: 300px;
+    }
+  }
+}
+.Register{
+  .register-form{
+    margin: 50px auto;
+    max-width: 500px;
+  }
+  .register-form-button{
+    width: 100%;
+  }
+}
+.register-agreement-modal{
+  button{
+    margin-left: 400px;
   }
 }
 

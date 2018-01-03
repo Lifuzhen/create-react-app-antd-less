@@ -153,6 +153,9 @@ module.exports = {
               compact: true,
             },
           },
+            { test: /\.(svg|woff|eot)\??.*$/,
+                loader: "url-loader?limit=65000&name=font_[name].[ext]",
+            },
           // The notation here is somewhat confusing.
           // "postcss" loader applies autoprefixer to our CSS.
           // "css" loader resolves paths in CSS and adds assets as dependencies.
