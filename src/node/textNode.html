@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>node</title>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="box">
+    <ul></ul>
+</div>
+
+<script type="text/javascript">
+    $.ajax({
+        url: "http://127.0.0.1:4848/",   //路径
+        dataType: "json",
+        success: function (res) {
+            console.log(res);
+            var str ="";
+            for(var temp of res){
+                str +=`<li>
+                    ${temp.username}
+                    </li>`
+            }
+            $(".box>ul").append(str);  //添加
+        },
+        error:function (err) {
+            alert("error");
+            console.log(err);
+        }
+    })
+</script>
+</body>
+</html>
