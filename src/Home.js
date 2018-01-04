@@ -7,6 +7,7 @@ import Index from "./page/Index";
 import Login from "./page/Login";
 import Register from "./page/Register";
 import Logout from "./page/Logout";
+import test from "./node/test";
 
 
 class Home extends React.Component{
@@ -23,6 +24,7 @@ class Home extends React.Component{
                 <Route path="/login" component={Login} />
                 <Route path="/register" component={Register} />
                 <Route path="/logout" component={Logout} />
+                <Route path="/test" component={test} />
             </div>
         </HashRouter>
     }

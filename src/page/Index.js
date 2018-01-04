@@ -27,6 +27,7 @@ class Index extends React.Component{
                         <Link to="/login"><Button>登录</Button></Link>
                         <Link to="/register"><Button>注册</Button></Link>
                         <Link to="/logout"><Button>退出</Button></Link>
+                        <Link to="/test">接口数据</Link>
                     </div>
                 </Header>
                 <Content>Content</Content>
