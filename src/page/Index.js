@@ -29,10 +29,7 @@ class Index extends React.Component{
                         <Link to="/logout"><Button>退出</Button></Link>
                     </div>
                 </Header>
-                <Layout>
-                    <Sider>Sider</Sider>
-                    <Content>Content</Content>
-                </Layout>
+                <Content>Content</Content>
                 <Footer>Footer</Footer>
             </Layout>
         </div>

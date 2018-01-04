@@ -30,8 +30,13 @@ class Login extends React.Component{
     };
     //点击忘记密码弹出找回密码的模态框
     forgetPwd = () => {
-        message.info("忘记密码页面还没有完善");
-        this.setState({forgetPwdVisible:true})
+        this.setState({
+            phone:"",
+            password:"",
+            code:"",
+            resetPwdVisible:false,
+            forgetPwdVisible:true
+        });
     };
     //上一步
     backForgetPwdModal = () => {
@@ -141,28 +146,30 @@ class Login extends React.Component{
                 onCancel={()=>{this.setState({forgetPwdVisible:false})}}
                 title="找回密码"
             >
-                {this.state.resetPwdVisible && <Icon type="arrow-left" onClick={this.backForgetPwdModal}/>}
-                {!this.state.resetPwdVisible && <div className="login-forgetPwd-modal-phone">
-                    <p>验证码将会发送至您注册的手机</p>
-                    <Input placeholder="手机" value={this.state.phone} onChange={this.getPhone}/>
-                    <Button onClick={this.getIdentifyCode} type="primary">获取验证码</Button>
-                </div>}
-                {this.state.resetPwdVisible && <div className="login-forgetPwd-modal-form">
-                    <p>验证码已发送，请重置密码</p>
-                    <Form>
-                        <FormItem>
-                            <Input value={this.state.phone} disabled={true} />
-                        </FormItem>
-                        <FormItem>
-                            <Input id="pwd" type="password" placeholder="请重新填写密码" onChange={this.getPwd} suffix={suffix}/>
-                        </FormItem>
-                        <FormItem>
-                            <Input placeholder="请填写验证码" onChange={this.getICode}/>
-                        </FormItem>
-                        <FormItem>
-                            <Button type="primary" onClick={this.resetPassword}>确定</Button>
-                        </FormItem>
-                    </Form>
+                {this.state.forgetPwdVisible && <div>
+                    {this.state.resetPwdVisible && <Icon type="arrow-left" onClick={this.backForgetPwdModal}/>}
+                    {!this.state.resetPwdVisible && <div className="login-forgetPwd-modal-phone">
+                        <p>验证码将会发送至您注册的手机</p>
+                        <Input placeholder="手机" value={this.state.phone} onChange={this.getPhone}/>
+                        <Button onClick={this.getIdentifyCode} type="primary">获取验证码</Button>
+                    </div>}
+                    {this.state.resetPwdVisible && <div className="login-forgetPwd-modal-form">
+                        <p>验证码已发送，请重置密码</p>
+                        <Form>
+                            <FormItem>
+                                <Input value={this.state.phone} disabled={true} />
+                            </FormItem>
+                            <FormItem>
+                                <Input id="pwd" type="password" value={this.state.password} placeholder="请重新填写密码" onChange={this.getPwd} suffix={suffix}/>
+                            </FormItem>
+                            <FormItem>
+                                <Input placeholder="请填写验证码" value={this.state.code} onChange={this.getICode}/>
+                            </FormItem>
+                            <FormItem>
+                                <Button type="primary" onClick={this.resetPassword}>确定</Button>
+                            </FormItem>
+                        </Form>
+                    </div>}
                 </div>}
             </Modal>
         </div>

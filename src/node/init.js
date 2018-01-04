@@ -11,16 +11,13 @@ let connection=mysql.createConnection({
     database:'mydb'
 });
 
-connection.connect();
-
-let selSql = 'SELECT * FROM users';
-connection.query(selSql,(err,result)=>{
+connection.connect(function (err) {
     if(err){
-        console.log(err.message);
+        console.log("mysql"+err);
     }
-    else{
-        console.log(result);
-    }
-})
+});
+// let selSql = 'SELECT * FROM users';
+// connection.query(selSql,(err,result)=>{
+//     console.log(result);
+// })
 
-connection.end();
