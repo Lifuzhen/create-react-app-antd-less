@@ -1,7 +1,7 @@
 /**
  * Created by fuzhen on 2017/12/28.
  */
-let express = require("express");  //映入express  没有的下载  可以在网上找百度
+let express = require("express");  //映入express
 let mysql = require('mysql');    //引入mysql
 
 let app=express();

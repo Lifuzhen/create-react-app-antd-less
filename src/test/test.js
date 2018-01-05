@@ -2,7 +2,7 @@
  * Created by fuzhen on 2018/1/4.
  */
 import React from "react";
-import Service from "./Service";
+import Service from "../data/Service";
 
 class test extends React.Component{
     constructor(props){
@@ -23,7 +23,7 @@ class test extends React.Component{
     render(){
         const data=this.state.data.map((x)=>{
             console.log(x);
-            return <li>{x.username}</li>
+            return <li key={x.id}>{x.username}</li>
         })
         return <div>{data}</div>
     }

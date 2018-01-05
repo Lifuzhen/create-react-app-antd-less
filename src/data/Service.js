@@ -2,7 +2,6 @@
  * Created by fuzhen on 2018/1/4.
  */
 import querystring from "querystring";
-
 import Cookie from "cookie";
 import {message} from "antd";
 

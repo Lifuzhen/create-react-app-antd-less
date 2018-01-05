@@ -5,7 +5,7 @@
 let express = require("express");
 let router = express.Router();
 
-let init = require("./init");
+let init = require("./../node/init");
 let selSql = 'SELECT * FROM users';
 let result="";
 router.get('/mysql',function (req, res, next) {

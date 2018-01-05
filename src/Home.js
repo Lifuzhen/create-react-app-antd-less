@@ -7,7 +7,7 @@ import Index from "./page/Index";
 import Login from "./page/Login";
 import Register from "./page/Register";
 import Logout from "./page/Logout";
-import test from "./node/test";
+import test from "./test/test";
 
 
 class Home extends React.Component{

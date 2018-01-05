@@ -5,7 +5,7 @@ import React from "react";
 import "./index.less";
 import {Button, Layout} from "antd";
 import {Link} from "react-router-dom";
-const { Header, Footer, Sider, Content } = Layout;
+const { Header, Footer, Content } = Layout;
 
 
 class Index extends React.Component{
