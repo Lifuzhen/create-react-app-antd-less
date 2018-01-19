@@ -1,4 +1,4 @@
-# create-react-app+antd+less配置
+# create-react-app+antd+less配置(自己动手创建步骤)
 1、create-react-app (文件夹名称)
 
 2、npm run eject
@@ -70,3 +70,11 @@
     },
     
     6、npm start
+    
+    
+# 克隆后运行的步骤
+
+> npm install
+
+> npm start
+
