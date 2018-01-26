@@ -18,7 +18,7 @@
         success: function (res) {
             console.log(res);
             var str ="";
-            for(var temp of res){
+            for(var temp of res.content){
                 str +=`<li>
                     ${temp.username}
                     </li>`

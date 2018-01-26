@@ -2,6 +2,7 @@
  * Created by fuzhen on 2018/1/2.
  */
 import React from "react";
+import Service from "../data/Service";
 import {Form, Icon, Button, Input, message, Checkbox, Modal} from "antd";
 const FormItem = Form.Item;
 
@@ -14,9 +15,6 @@ class Register extends React.Component{
 
         }
     }
-
-
-
     checkPassword = (rule, value, callback) => {
         const form = this.props.form;
         if (value && value !== form.getFieldValue('password')) {
@@ -45,10 +43,19 @@ class Register extends React.Component{
                 if(values.agreement === undefined){
                     message.error("请同意我公司的服务条款")
                 }else{
-                    //成功注册后
-                    message.success("注册成功,请登录");
-                    this.props.form.resetFields();//清空表单里的数据
-                    window.location.href="/#/login";
+                    Service().registerUser(values.username,values.password).then((data)=>{
+                        console.log(data);
+                        if(data != undefined){
+                            //成功注册后
+                            message.success("注册成功,请登录");
+                            this.props.form.resetFields();//清空表单里的数据
+                            window.location.href = "/#/login";
+                        }else{
+                            message.error("注册失败")
+                        }
+                    }).catch(function (error) {
+                        console.log(error);
+                    })
                 }
             }
         });

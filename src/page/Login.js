@@ -2,6 +2,7 @@
  * Created by fuzhen on 2018/1/2.
  */
 import React from "react";
+import Service from "../data/Service";
 import {Form, Icon, Input, Button, Modal, message} from "antd";
 const FormItem = Form.Item;
 
@@ -24,7 +25,18 @@ class Login extends React.Component{
         this.props.form.validateFields((err, values) => {
             if (!err) {
                 console.log('Received values of form: ', values);
-                this.props.form.resetFields();//清空表单里的数据
+                Service().loginUser(values.username,values.password).then((data)=>{
+                    if(data == "success"){
+                        message.success("登录成功");
+                        this.props.form.resetFields();//清空表单里的数据
+                        //登录成功后跳转的页面
+
+                    }else{
+                        message.error("用户名与密码不匹配");
+                    }
+                }).catch((err)=>{
+                    console.log(err);
+                })
             }
         });
     };

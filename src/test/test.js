@@ -16,13 +16,12 @@ class test extends React.Component{
         const self=this;
         Service().selectAllUsers().then(function (data) {
             console.log(data);
-            self.setState({data:data})
+            self.setState({data:data.content})
         })
     }
 
     render(){
         const data=this.state.data.map((x)=>{
-            console.log(x);
             return <li key={x.id}>{x.username}</li>
         })
         return <div>{data}</div>

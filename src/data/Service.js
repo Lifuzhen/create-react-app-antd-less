@@ -31,9 +31,25 @@ export default function(){
     return {
         post:post, get:get, delete:del,
         selectAllUsers(){
-            return get("http://127.0.0.1:4848/").then((res) => {
+            return this.get("http://127.0.0.1:4848/").then((res) => {
                 if(res.ok){
                     return res.json();
+                }
+            });
+        },registerUser(username,password){
+            const data = {username:username,password:password};
+            const formdata = new Blob([JSON.stringify(data)], {type : "application/json"});
+            return this.post("http://127.0.0.1:4848/register",formdata).then((res) => {
+                if(res.ok){
+                    return res.text();
+                }
+            });
+        },loginUser(username,password){
+            const data = {username:username,password:password};
+            const formdata = new Blob([JSON.stringify(data)], {type : "application/json"});
+            return this.post("http://127.0.0.1:4848/login",formdata).then((res) => {
+                if(res.ok){
+                    return res.text();
                 }
             });
         }
