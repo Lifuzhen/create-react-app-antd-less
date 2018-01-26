@@ -44,7 +44,6 @@ class Register extends React.Component{
                     message.error("请同意我公司的服务条款")
                 }else{
                     Service().registerUser(values.username,values.password).then((data)=>{
-                        console.log(data);
                         if(data != undefined){
                             //成功注册后
                             message.success("注册成功,请登录");

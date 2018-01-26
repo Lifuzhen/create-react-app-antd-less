@@ -65,8 +65,8 @@ app.post("/login",function (req, res) {
     const username = req.body.username;
     const password = req.body.password;
     //跨域
-    res.setHeader("Access-Control-Allow-Origin", "*");
-    res.writeHead(200, {"Content-Type": "text/html;charset=utf-8"});
+    // res.setHeader("Access-Control-Allow-Origin", "*");
+    // res.writeHead(200, {"Content-Type": "text/html;charset=utf-8"});
     connection.query("select * from users",function (err, data) {
         if(err){
             console.log(err);
@@ -75,10 +75,9 @@ app.post("/login",function (req, res) {
             array.map((x)=>{
                 if(x.username == username && x.password == password){
                     res.end("success");
-                }else{
-                    res.end("error");
                 }
             });
+            res.end("error");
         }
     })
 
