@@ -3,6 +3,7 @@
  */
 import React from "react";
 import {Route, HashRouter} from "react-router-dom";
+import AppFrame from "./page/Frame";
 import Index from "./page/Index";
 import Login from "./page/Login";
 import Register from "./page/Register";
@@ -20,11 +21,13 @@ class Home extends React.Component{
     render(){
         return <HashRouter>
             <div>
-                <Route path="/" exact component={Index} />
-                <Route path="/login" component={Login} />
-                <Route path="/register" component={Register} />
-                <Route path="/logout" component={Logout} />
-                <Route path="/test" component={test} />
+                <AppFrame>
+                    <Route path="/" exact component={Index} />
+                    <Route path="/login" component={Login} />
+                    <Route path="/register" component={Register} />
+                    <Route path="/logout" component={Logout} />
+                    <Route path="/test" component={test} />
+                </AppFrame>
             </div>
         </HashRouter>
     }
