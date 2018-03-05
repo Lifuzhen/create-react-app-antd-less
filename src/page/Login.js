@@ -3,6 +3,7 @@
  */
 import React from "react";
 import Service from "../data/Service";
+import Cookie from 'cookie';
 import {Form, Icon, Input, Button, Modal, message} from "antd";
 const FormItem = Form.Item;
 
@@ -27,9 +28,10 @@ class Login extends React.Component{
                 console.log('Received values of form: ', values);
                 Service().loginUser(values.username,values.password).then((data)=>{
                     if(data == "success"){
+                        document.cookie = Cookie.serialize('user',values.username);
                         message.success("登录成功");
                         this.props.form.resetFields();//清空表单里的数据
-                        //登录成功后跳转的页面
+                        document.location.href="/";//登录成功后跳转到主页
 
                     }else{
                         message.error("用户名与密码不匹配");
