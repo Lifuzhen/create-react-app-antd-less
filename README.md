@@ -3,9 +3,11 @@
 
 1、create-react-app (文件夹名称)
 
-2、npm run eject
+2、cd (文件夹名称)
 
-3、npm install less-loader less --save-dev
+3、npm run eject
+
+4、npm install less-loader less --save-dev
 
 修改config文件夹下的webpack.config.dev.js和webpack.config.prod.js文件(都需要修改) 
 
@@ -37,9 +39,9 @@
     
   ],
   
-  4、npm install antd --save-dev
+  5、npm install antd --save-dev
   
-  5、npm install –save-dev babel-plugin-import
+  6、npm install –save-dev babel-plugin-import
   
   修改 package.json
   
@@ -71,7 +73,7 @@
       
     },
     
-    6、npm start
+    7、npm start
     
     
 # 克隆后运行的步骤
