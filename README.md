@@ -1,4 +1,6 @@
 # create-react-app+antd+less配置(自己动手创建步骤)
+前提  create-react-app 可以使用，如果提示create-react-app不是内部或外部命令    先执行   npm install -g create-react-app
+
 1、create-react-app (文件夹名称)
 
 2、npm run eject
