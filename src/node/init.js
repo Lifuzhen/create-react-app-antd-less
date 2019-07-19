@@ -27,6 +27,18 @@ let connection = mysql.createConnection({
 //连接
 connection.connect();
 
+
+//设置跨域访问
+app.all('*', function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "X-Requested-With,Content-Type");
+    res.header("Access-Control-Allow-Methods","PUT,POST,GET,DELETE,OPTIONS");
+    res.header("X-Powered-By",' 3.2.1');
+    res.header("Content-Type", "application/json;charset=utf-8");
+    next();
+});
+
+
 //测试node接口
 app.get("/",function(req,res){
     //跨域

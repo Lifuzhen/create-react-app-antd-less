@@ -24,7 +24,9 @@ class test extends React.Component{
         const data=this.state.data.map((x)=>{
             return <li key={x.id}>{x.username}</li>
         })
-        return <div>{data}</div>
+        return <div>
+            {data}
+        </div>
     }
 
 }

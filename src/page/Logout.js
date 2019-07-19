@@ -16,7 +16,7 @@ class Logout extends React.Component{
         return <div>
             <Modal width={410} className="session-timeout" visible={true} title="正在退出" footer={null}>
                 <div>
-                    <img style={{width: "375px", marginTop: "-10px", marginBottom: "20px"}} src="/assets/exit.png"/>
+                    <img style={{width: "375px", marginTop: "-10px", marginBottom: "20px"}} src="/src/assets/exit.png"/>
                 </div>
             </Modal></div>;
     }

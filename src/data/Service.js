@@ -36,7 +36,8 @@ export default function(){
                     return res.json();
                 }
             });
-        },registerUser(username,password){
+        },
+        registerUser(username,password){
             const data = {username:username,password:password};
             const formdata = new Blob([JSON.stringify(data)], {type : "application/json"});
             return this.post("http://127.0.0.1:4848/register",formdata).then((res) => {
@@ -44,12 +45,20 @@ export default function(){
                     return res.text();
                 }
             });
-        },loginUser(username,password){
+        },
+        loginUser(username,password){
             const data = {username:username,password:password};
             const formdata = new Blob([JSON.stringify(data)], {type : "application/json"});
             return this.post("http://127.0.0.1:4848/login",formdata).then((res) => {
                 if(res.ok){
                     return res.text();
+                }
+            });
+        },
+        getChinaJson(){
+            return this.get("../assets/china.json").then((res) => {
+                if(res.ok){
+                    return res.json();
                 }
             });
         }
