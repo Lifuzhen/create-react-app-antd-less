@@ -26,9 +26,9 @@ class Index extends React.Component{
         return <div className="Index">
             <Layout>
                 <Header>
-                    <div className="logo">
-                        <Link to="/"><img src={logo}/></Link>
-                    </div>
+                    {/*<div className="logo">*/}
+                    {/*    <Link to="/"><img src={logo}/></Link>*/}
+                    {/*</div>*/}
                     <div className="nav-menu">
                         <Menu mode="horizontal">
                             <Menu.Item key="chuan">

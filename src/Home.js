@@ -4,11 +4,13 @@
 import React from "react";
 import {Route, HashRouter} from "react-router-dom";
 import AppFrame from "./page/Frame";
+import AntFormMap from "./page/test/AntFormMap";
 import Index from "./page/Index";
 import Login from "./page/Login";
 import Register from "./page/Register";
 import Logout from "./page/Logout";
 import test from "./test/test";
+
 
 
 class Home extends React.Component{
@@ -27,6 +29,7 @@ class Home extends React.Component{
                     <Route path="/register" component={Register} />
                     <Route path="/logout" component={Logout} />
                     <Route path="/test" component={test} />
+                    <Route path="/formMap" component={AntFormMap} />
                 </AppFrame>
             </div>
         </HashRouter>

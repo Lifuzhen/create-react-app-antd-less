@@ -3,6 +3,7 @@
  */
 
 import React from "react";
+import {Link} from "react-router-dom";
 import G2 from "g2";
 import $ from "jquery";
 import Service from "../data/Service";
@@ -64,6 +65,7 @@ class Index extends React.Component{
     render(){
         return <div>
             <div id="c1"></div>
+            <Link to="/formMap">ant Design中form动态渲染的增删测试</Link>
         </div>
     }
 }
