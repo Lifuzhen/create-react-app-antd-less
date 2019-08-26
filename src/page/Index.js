@@ -7,6 +7,7 @@ import {Link} from "react-router-dom";
 import G2 from "g2";
 import $ from "jquery";
 import Service from "../data/Service";
+import ScrollReveal from "scrollreveal";
 
 class Index extends React.Component{
 
@@ -23,7 +24,7 @@ class Index extends React.Component{
         var chart = new G2.Chart({
             id: 'c1',
             forceFit: true,
-            height: 450
+            height: 400
         });
         chart.source(data);
         // 重要：绘制饼图时，必须声明 theta 坐标系
@@ -60,12 +61,59 @@ class Index extends React.Component{
         var geom = chart.getGeoms()[0]; // 获取所有的图形
         var items = geom.getData(); // 获取图形对应的数据
         geom.setSelected(items[1]); // 设置选中
+
+
+
+
+        ScrollReveal().reveal('.left',{
+            duration: 1000,
+            distance: '40px',
+            easing: 'cubic-bezier(0.5, -0.01, 0, 1.005)',
+            origin: 'left',
+            interval: 150
+        });
+        ScrollReveal().reveal('.right',{
+            duration: 1000,
+            distance: '40px',
+            easing: 'cubic-bezier(0.5, -0.01, 0, 1.005)',
+            origin: 'right',
+            interval: 150
+        });
+        ScrollReveal().reveal('.bottom',{
+            duration: 1000,
+            distance: '40px',
+            easing: 'cubic-bezier(0.5, -0.01, 0, 1.005)',
+            interval: 100,
+            origin: 'bottom',
+            scale: 0.9,
+            viewFactor: 0.5
+        })
     }
 
     render(){
         return <div>
-            <div id="c1"></div>
+            <div className="left">
+                测试scrollReveal——左
+            </div>
+            <div className="right">
+                测试scrollReveal——右
+            </div>
+
+            <br/>
+            <br/>
+            <br/>
+
+            <div id="c1"/>
             <Link to="/formMap">ant Design中form动态渲染的增删测试</Link>
+
+
+            <br/>
+            <br/>
+            <br/>
+
+            <div className="bottom">
+                <img src="../assets/logo.png"/>
+            </div>
         </div>
     }
 }
