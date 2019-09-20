@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="481da561-2a03-4c46-8576-7a19c77498d8" name="Default" comment="css中filter属性的应用">
-      <change afterPath="$PROJECT_DIR$/src/page/G2/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/G2/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/React+React-router4.x+Ant Design+Flux视频教程--【IT营大地】/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/cssFilter/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/cssFilter/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/scrollReveal/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/scrollReveal/index.less" afterDir="false" />
+    <list default="true" id="481da561-2a03-4c46-8576-7a19c77498d8" name="Default" comment="归类">
+      <change afterPath="$PROJECT_DIR$/src/page/nest/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/nest/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.978fb3b1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.978fb3b1.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.0476af1c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.0476af1c.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/index.less" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,7 +35,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/page/cssFilter/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1900">
+                <state relative-caret-position="1850">
                   <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
@@ -58,7 +47,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/page/Frame.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="700">
+                <state relative-caret-position="550">
                   <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
                   <folding>
                     <element signature="e#44#70#0" expanded="true" />
@@ -70,8 +59,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Home.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="975">
-                  <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+                <state relative-caret-position="728">
+                  <caret line="40" column="59" lean-forward="true" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
                   <folding>
                     <element signature="e#44#70#0" expanded="true" />
                   </folding>
@@ -80,19 +69,32 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/page/Index.js">
+            <entry file="file://$PROJECT_DIR$/src/page/nest/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="575">
-                  <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+                <state relative-caret-position="50">
+                  <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                    <element signature="e#774#2601#0" />
+                    <element signature="e#2492#3094#0" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/page/nest/index.less">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/page/React+React-router4.x+Ant Design+Flux视频教程--【IT营大地】/index.js">
+            <entry file="file://$PROJECT_DIR$/src/page/Index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+                <state relative-caret-position="230">
+                  <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#42#68#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -118,8 +120,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/page/cssFilter/index.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="350">
-                  <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+                <state relative-caret-position="133">
+                  <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -210,6 +212,7 @@
         <option value="$PROJECT_DIR$/src/page/cssFilter/index.less" />
         <option value="$PROJECT_DIR$/src/page/React+React-router4.x+Ant Design+Flux视频教程--【IT营大地】/index.js" />
         <option value="$PROJECT_DIR$/src/Home.js" />
+        <option value="$PROJECT_DIR$/src/page/nest/index.js" />
         <option value="$PROJECT_DIR$/src/page/Index.js" />
       </list>
     </option>
@@ -231,6 +234,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,8 +258,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -402,6 +405,9 @@
       <workItem from="1567048224479" duration="6143000" />
       <workItem from="1568440513452" duration="2753000" />
       <workItem from="1568448593515" duration="52000" />
+      <workItem from="1568550777895" duration="122000" />
+      <workItem from="1568594883988" duration="107000" />
+      <workItem from="1568949912933" duration="5924000" />
     </task>
     <task id="LOCAL-00001" summary="page">
       <created>1514888182485</created>
@@ -452,14 +458,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567055462584</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="归类">
+      <created>1568550829080</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568550829080</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129001000" />
+    <option name="totallyTimeSpent" value="135154000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
+    <frame x="-8" y="-8" width="1552" height="840" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
@@ -480,7 +493,7 @@
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3418079" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3601695" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3601695" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="RNConsole" order="12" weight="0.32909605" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -498,7 +511,7 @@
       <window_info id="Image Layers" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.25301206" />
+      <window_info content_ui="combo" id="Project" order="4" weight="0.25301206" />
       <window_info id="Structure" order="5" weight="0.25" />
       <window_info id="npm" order="6" side_tool="true" />
       <window_info id="Favorites" order="7" side_tool="true" />
@@ -512,7 +525,7 @@
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3418079" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3601695" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3601695" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="RNConsole" order="12" weight="0.32909605" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -536,12 +549,10 @@
     <MESSAGE value=":sparkles: antDesign中form的动态添加和渲染" />
     <MESSAGE value="add scroll-reveal" />
     <MESSAGE value="css中filter属性的应用" />
-    <option name="LAST_COMMIT_MESSAGE" value="css中filter属性的应用" />
+    <MESSAGE value="归类" />
+    <option name="LAST_COMMIT_MESSAGE" value="归类" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/build.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/start.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -801,7 +812,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/page/cssFilter/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
+        <state relative-caret-position="1850">
           <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -811,28 +822,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/page/Frame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
+        <state relative-caret-position="550">
           <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
           <folding>
             <element signature="e#44#70#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-          <folding>
-            <element signature="e#44#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/Index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -861,17 +855,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/cssFilter/index.less">
+    <entry file="file://$PROJECT_DIR$/src/page/React+React-router4.x+Ant Design+Flux视频教程--【IT营大地】/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="155">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/React+React-router4.x+Ant Design+Flux视频教程--【IT营大地】/index.js">
+    <entry file="file://$PROJECT_DIR$/src/page/nest/index.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="728">
+          <caret line="40" column="59" lean-forward="true" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+          <folding>
+            <element signature="e#44#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-canvas-nest/dist/react-canvas-nest.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="68" selection-start-column="68" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/nest/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#774#2601#0" />
+            <element signature="e#2492#3094#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/cssFilter/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/Index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="e#42#68#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

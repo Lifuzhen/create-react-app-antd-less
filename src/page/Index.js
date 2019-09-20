@@ -29,6 +29,9 @@ class Index extends React.Component {
             <Link to="/test">Test</Link>
             <br/>
             <br/>
+            <Link to="/nest">超级酷炫的粒子围绕鼠标的效果(react-canvas-nest)</Link>
+            <br/>
+            <br/>
         </div>
     }
 }

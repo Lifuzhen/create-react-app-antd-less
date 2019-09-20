@@ -14,6 +14,7 @@ import Login from "./page/Login";
 import Register from "./page/Register";
 import Logout from "./page/Logout";
 import test from "./test/test";
+import Nest from "./page/nest/index";
 
 
 
@@ -38,6 +39,7 @@ class Home extends React.Component{
                     <Route path="/scrollReveal" component={ScrollTest} />
                     <Route path="/g2Example" component={G2Example} />
                     <Route path="/test" component={Test} />
+                    <Route path="/nest" component={Nest} />
                 </AppFrame>
             </div>
         </HashRouter>
