@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="481da561-2a03-4c46-8576-7a19c77498d8" name="Default" comment="归类">
-      <change afterPath="$PROJECT_DIR$/src/page/nest/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/nest/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Index.js" afterDir="false" />
-    </list>
+    <list default="true" id="481da561-2a03-4c46-8576-7a19c77498d8" name="Default" comment="react-canvas-nest" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -90,8 +82,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/page/Index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
-                  <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+                <state relative-caret-position="700">
+                  <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
                   <folding>
                     <element signature="e#42#68#0" expanded="true" />
                   </folding>
@@ -407,7 +399,7 @@
       <workItem from="1568448593515" duration="52000" />
       <workItem from="1568550777895" duration="122000" />
       <workItem from="1568594883988" duration="107000" />
-      <workItem from="1568949912933" duration="5924000" />
+      <workItem from="1568949912933" duration="6196000" />
     </task>
     <task id="LOCAL-00001" summary="page">
       <created>1514888182485</created>
@@ -465,14 +457,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568550829080</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="react-canvas-nest">
+      <created>1568958841316</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568958841317</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135154000" />
+    <option name="totallyTimeSpent" value="135426000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1552" height="840" extended-state="1" />
+    <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
@@ -493,7 +492,7 @@
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3418079" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3601695" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3601695" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="RNConsole" order="12" weight="0.32909605" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -524,8 +523,8 @@
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3418079" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3601695" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3418079" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3601695" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="RNConsole" order="12" weight="0.32909605" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -550,7 +549,8 @@
     <MESSAGE value="add scroll-reveal" />
     <MESSAGE value="css中filter属性的应用" />
     <MESSAGE value="归类" />
-    <option name="LAST_COMMIT_MESSAGE" value="归类" />
+    <MESSAGE value="react-canvas-nest" />
+    <option name="LAST_COMMIT_MESSAGE" value="react-canvas-nest" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scripts/start.js">
@@ -903,8 +903,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/page/Index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="700">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
           <folding>
             <element signature="e#42#68#0" expanded="true" />
           </folding>
